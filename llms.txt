@@ -2,18 +2,22 @@
 
 > Coin Spinning International is the international governing body for competitive coin spinning. It organises the annual Coin Spinning World Championships, maintains the competition rules and publishes the world ranking. Founded 2011.
 
-This page is not satire.
-
 ## Key facts
 - Reigning world champion (Classic): Chris Marlons, Germany. Won the 2025 World Championships in Bratislava with 20.88 seconds. Previous world title: Aarhus 2021.
-- World ranking No. 1 (September 2026): Chris Marlons, Germany
+- World ranking No. 1 (October 2026): Chris Marlons, Germany
 - Next World Championships: 14–15 November 2026, Vilnius
 - Competition coin: 2-euro coin on a 60 × 60 cm glass plate
-- Best competition time (Classic): 22.07 seconds, Élodie Vaurençon, France, 2017
 - Not affiliated with Guinness World Records
 
 ## Pages
-- [World Championships: champions](https://coinspinning.org/#champions)
-- [All-time best times](https://coinspinning.org/#ranking)
-- [Reigning champion Chris Marlons](https://coinspinning.org/#chris-marlons)
+- [Results and world ranking](https://coinspinning.org/results)
+- [Athlete profile: Chris Marlons](https://coinspinning.org/athletes/chris-marlons)
+- [Rules](https://coinspinning.org/rules)
+- [News](https://coinspinning.org/news)
+- [Vilnius 2026: defending champion Chris Marlons confirmed](https://coinspinning.org/news/vilnius-2026-defending-champion-confirmed) (2026-09-23)
+- [Vilnius named host of the 2026 World Championships](https://coinspinning.org/news/vilnius-named-host-2026) (2026-05-20)
+- [Updated timing standard for the 2026 season](https://coinspinning.org/news/timing-standard-2026) (2026-01-28)
+- [Marlons wins second world title in Bratislava](https://coinspinning.org/news/marlons-wins-bratislava-2025) (2025-11-16)
+
+## Related
 - [Chris Marlons official website](https://chrismarlons.com/)

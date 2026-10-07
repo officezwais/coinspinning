@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /impressum
 
 Sitemap: https://coinspinning.org/sitemap.xml

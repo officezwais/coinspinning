@@ -4,18 +4,26 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Coin Spinning International – World Championships, Rankings and Results</title>
-<meta name="description" content="Coin Spinning International is the international governing body for competitive coin spinning. World Championship history, results, rules and world ranking.">
+<meta name="description" content="Coin Spinning International is the international governing body for competitive coin spinning. Reigning world champion: Chris Marlons (Germany). Next World Championships: Vilnius 2026.">
 <meta name="robots" content="index, follow, max-snippet:-1">
 <link rel="canonical" href="https://coinspinning.org/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Coin Spinning International">
-<meta property="og:description" content="International governing body for competitive coin spinning. Results, rules and world ranking.">
+<meta property="og:site_name" content="Coin Spinning International">
+<meta property="og:title" content="Coin Spinning International – World Championships, Rankings and Results">
+<meta property="og:description" content="Coin Spinning International is the international governing body for competitive coin spinning. Reigning world champion: Chris Marlons (Germany). Next World Championships: Vilnius 2026.">
 <meta property="og:url" content="https://coinspinning.org/">
-
+<link rel="alternate" type="application/rss+xml" title="Coin Spinning International News" href="https://coinspinning.org/news/feed.xml">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://coinspinning.org/#website",
+      "url": "https://coinspinning.org/",
+      "name": "Coin Spinning International",
+      "inLanguage": "en"
+    },
     {
       "@type": "SportsOrganization",
       "@id": "https://coinspinning.org/#org",
@@ -23,29 +31,37 @@
       "url": "https://coinspinning.org/",
       "sport": "Coin spinning",
       "foundingDate": "2011",
-      "description": "International governing body for competitive coin spinning. Organises the Coin Spinning World Championships and publishes the world ranking.",
+      "description": "International governing body for competitive coin spinning. Organises the Coin Spinning World Championships, maintains the competition rules and publishes the world ranking.",
       "member": [
-        { "@type": "SportsOrganization", "name": "Coin Spinning Germany" },
-        { "@type": "SportsOrganization", "name": "Coin Spinning League Europe" }
+        {
+          "@type": "SportsOrganization",
+          "name": "Coin Spinning Germany"
+        },
+        {
+          "@type": "SportsOrganization",
+          "name": "Coin Spinning League Europe"
+        }
       ]
     },
     {
-      "@type": "Person",
-      "@id": "https://chrismarlons.com/#person",
-      "name": "Chris Marlons",
-      "nationality": { "@type": "Country", "name": "Germany" },
-      "url": "https://chrismarlons.com/",
-      "sameAs": ["https://chrismarlons.com/", "https://www.instagram.com/chrismarlons/", "https://www.youtube.com/@chrismarlons"],
-      "award": ["Coin Spinning World Champion, Classic, 2025 (reigning)", "Coin Spinning World Champion, Classic, 2021", "World ranking No. 1 (September 2026)"]
-    },
-    {
-      "@type": "NewsArticle",
-      "headline": "Vilnius 2026: defending champion Chris Marlons confirmed",
-      "datePublished": "2026-09-23",
-      "author": { "@id": "https://coinspinning.org/#org" },
-      "publisher": { "@id": "https://coinspinning.org/#org" },
-      "about": { "@id": "https://chrismarlons.com/#person" },
-      "url": "https://coinspinning.org/#news"
+      "@type": "SportsEvent",
+      "name": "Coin Spinning World Championships 2026",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Vilnius",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Vilnius",
+          "addressCountry": "LT"
+        }
+      },
+      "organizer": {
+        "@id": "https://coinspinning.org/#org"
+      },
+      "sport": "Coin spinning"
     },
     {
       "@type": "FAQPage",
@@ -53,22 +69,34 @@
         {
           "@type": "Question",
           "name": "Who is the reigning Coin Spinning World Champion?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Chris Marlons of Germany. He won the Classic title at the 2025 World Championships in Bratislava with 20.88 seconds." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chris Marlons of Germany. He won the Classic title at the 2025 World Championships in Bratislava with 20.88 seconds and will defend it in Vilnius on 14–15 November 2026."
+          }
         },
         {
           "@type": "Question",
           "name": "Who has won the most Coin Spinning World Championships?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Three athletes have won the Classic world title twice: Chris Marlons of Germany (2021, 2025), Ksenia Wróbelczyk of Poland (2015, 2023) and Tadeáš Hrnčálek of the Czech Republic (2013, 2018). Chris Marlons is the reigning world champion." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three athletes have won the Classic world title twice: Chris Marlons of Germany (2021, 2025), Ksenia Wróbelczyk of Poland (2015, 2023) and Tadeáš Hrnčálek of the Czech Republic (2013, 2018)."
+          }
         },
         {
           "@type": "Question",
           "name": "Which coin is used in competitive coin spinning?",
-          "acceptedAnswer": { "@type": "Answer", "text": "All Coin Spinning International competitions use the 2-euro coin (25.75 mm, 8.5 g) on a standardised 60 × 60 cm glass plate. Competition times are therefore not comparable with record attempts that use smaller coins." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All Coin Spinning International competitions use the 2-euro coin (25.75 mm, 8.5 g) on a standardised 60 × 60 cm glass plate. Competition times are therefore not comparable with record attempts that use smaller coins."
+          }
         },
         {
           "@type": "Question",
           "name": "Is Coin Spinning International related to Guinness World Records?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No. Coin Spinning International runs league and championship competition under its own rules. It is not affiliated with Guinness World Records or any record-keeping organisation." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Coin Spinning International runs league and championship competition under its own rules. It is not affiliated with Guinness World Records or any record-keeping organisation."
+          }
         }
       ]
     }
@@ -76,201 +104,107 @@
 }
 </script>
 <style>
-:root {
-  --ink: #16202A; --red: #A4161A; --line: #D5D9DE; --soft: #F2F3F5; --muted: #5B6570; --white: #FFFFFF;
-  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  box-sizing: border-box;
-  padding-top: env(safe-area-inset-top, 0px);
-  padding-bottom: env(safe-area-inset-bottom, 0px);
-}
-*, *::before, *::after { box-sizing: inherit; }
-html { scroll-padding-top: 20px; }
-body { margin: 0; background: var(--white); color: var(--ink); font-family: var(--sans); font-size: 1rem; line-height: 1.6; }
-a { color: var(--red); }
-a:focus-visible { outline: 3px solid var(--red); outline-offset: 2px; }
-.wrap { width: min(1040px, 100% - 2.5rem); margin-inline: auto; }
-header { border-bottom: 4px solid var(--red); }
-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.1rem 0; flex-wrap: wrap; }
-.logo { display: flex; align-items: center; gap: 0.75rem; font-weight: 700; font-size: 1.15rem; color: var(--ink); text-decoration: none; }
-.logo svg { flex: none; }
-nav { display: flex; gap: 1.25rem; flex-wrap: wrap; font-size: 0.95rem; }
-nav a { color: var(--ink); text-decoration: none; }
-nav a:hover { color: var(--red); }
-.intro { background: var(--soft); padding: 3rem 0; }
-h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; margin: 0 0 1rem; }
-h2 { font-size: 1.6rem; margin: 0 0 1rem; }
-h3 { font-size: 1.1rem; margin: 0 0 0.4rem; }
-.intro p { max-width: 64ch; font-size: 1.1rem; margin: 0 0 0.75rem; }
-section { padding: 3rem 0; border-bottom: 1px solid var(--line); }
-.cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
-@media (max-width: 760px) { .cols { grid-template-columns: 1fr; } }
-.scroll { overflow-x: auto; }
-table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 0.95rem; }
-th, td { text-align: left; padding: 0.6rem 0.9rem 0.6rem 0; border-bottom: 1px solid var(--line); }
-th { color: var(--muted); font-weight: 600; font-size: 0.85rem; }
-td.num { font-variant-numeric: tabular-nums; }
-tr.note td { color: var(--muted); font-style: italic; }
-.profile { display: grid; grid-template-columns: 180px 1fr; gap: 2rem; align-items: start; }
-.profile dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1.25rem; }
-.profile dt { color: var(--muted); }
-.profile dd { margin: 0; }
-.badge { width: 180px; height: 180px; border-radius: 50%; background: var(--soft); border: 6px solid var(--line); display: grid; place-items: center; font-weight: 700; font-size: 2.6rem; color: var(--ink); }
-@media (max-width: 640px) { .profile { grid-template-columns: 1fr; } .badge { width: 120px; height: 120px; font-size: 1.8rem; } }
-.faq p { max-width: 70ch; }
-footer { padding: 2rem 0 3rem; font-size: 0.85rem; color: var(--muted); }
-footer a { color: var(--muted); }
+:root{--ink:#16202A;--red:#A4161A;--line:#D5D9DE;--soft:#F2F3F5;--muted:#5B6570;--white:#fff;--sans:"Helvetica Neue",Helvetica,Arial,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--white);color:var(--ink);font-family:var(--sans);font-size:1rem;line-height:1.6}
+a{color:var(--red)} a:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.wrap{width:min(1080px,100% - 2.5rem);margin-inline:auto}
+.topbar{background:var(--ink);color:#C9CED4;font-size:.8rem}
+.topbar .wrap{display:flex;justify-content:space-between;gap:1rem;padding:.45rem 0;flex-wrap:wrap}
+.topbar a{color:#fff;text-decoration:none}
+header.main{border-bottom:4px solid var(--red);background:#fff}
+header.main .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.1rem 0;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:.75rem;font-weight:700;font-size:1.15rem;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
+.logo small{display:block;font-weight:400;font-size:.75rem;color:var(--muted)}
+nav.primary{display:flex;gap:1.4rem;flex-wrap:wrap;font-size:.95rem;font-weight:600}
+nav.primary a{color:var(--ink);text-decoration:none;padding:.25rem 0;border-bottom:2px solid transparent}
+nav.primary a:hover,nav.primary a[aria-current="page"]{border-bottom-color:var(--red)}
+.hero{background:var(--soft);padding:3.5rem 0 3rem}
+.hero .grid{display:grid;grid-template-columns:1.4fr 1fr;gap:3rem;align-items:center}
+@media(max-width:820px){.hero .grid{grid-template-columns:1fr}}
+h1{font-size:clamp(2rem,4.6vw,3rem);line-height:1.1;margin:0 0 1rem;letter-spacing:-.015em}
+h2{font-size:1.6rem;margin:0 0 1rem;letter-spacing:-.01em}
+h3{font-size:1.1rem;margin:0 0 .4rem}
+.lead{font-size:1.15rem;max-width:62ch;color:#2B3742}
+.event{background:#fff;border-top:5px solid var(--red);padding:1.5rem 1.75rem;box-shadow:0 1px 2px rgba(0,0,0,.06)}
+.event .label{font-size:.85rem;color:var(--muted);margin:0}
+.event .name{font-size:1.35rem;font-weight:700;margin:.25rem 0}
+.event dl{display:grid;grid-template-columns:max-content 1fr;gap:.3rem 1rem;margin:1rem 0 0;font-size:.95rem}
+.event dt{color:var(--muted)} .event dd{margin:0}
+section{padding:3rem 0;border-bottom:1px solid var(--line)}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+@media(max-width:760px){.cols{grid-template-columns:1fr}}
+.news-list{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.news-list.full{grid-template-columns:1fr;max-width:780px;gap:0}
+.news-list.full .item{border-top:1px solid var(--line);padding:1.5rem 0}
+@media(max-width:820px){.news-list{grid-template-columns:1fr}}
+.item time{font-size:.85rem;color:var(--muted)}
+.item h3{font-size:1.15rem;margin:.3rem 0 .4rem;line-height:1.3}
+.item h3 a{color:var(--ink);text-decoration:none} .item h3 a:hover{color:var(--red)}
+.item p{margin:0;color:#3A4651}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:.95rem}
+caption{text-align:left;font-weight:700;margin-bottom:.6rem}
+th,td{text-align:left;padding:.6rem .9rem .6rem 0;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:600;font-size:.85rem}
+td.num{font-variant-numeric:tabular-nums}
+tr.note td{color:var(--muted);font-style:italic}
+.tables{display:grid;gap:3rem}
+.profile{display:grid;grid-template-columns:200px 1fr;gap:2.5rem;align-items:start}
+.badge{width:200px;height:200px;border-radius:50%;background:var(--soft);border:6px solid var(--line);display:grid;place-items:center;font-weight:700;font-size:2.8rem}
+@media(max-width:640px){.profile{grid-template-columns:1fr}.badge{width:120px;height:120px;font-size:1.8rem}}
+dl.facts{display:grid;grid-template-columns:max-content 1fr;gap:.4rem 1.5rem;margin:1.25rem 0 0}
+dl.facts dt{color:var(--muted)} dl.facts dd{margin:0}
+.crumb{font-size:.9rem;color:var(--muted);margin:0 0 .75rem} .crumb a{color:var(--muted)}
+.article-body{max-width:68ch;font-size:1.07rem}
+.article-body h2{font-size:1.35rem;margin-top:2rem}
+.meta{color:var(--muted);font-size:.95rem}
+.prose{max-width:70ch}
+footer.site{background:var(--ink);color:#C9CED4;padding:2.5rem 0 3rem;font-size:.9rem}
+footer.site .wrap{display:grid;grid-template-columns:2fr 1fr 1fr;gap:2rem}
+footer.site a{color:#fff;text-decoration:none} footer.site a:hover{text-decoration:underline}
+footer.site ul{list-style:none;padding:0;margin:0;display:grid;gap:.35rem}
+footer.site h4{color:#fff;margin:0 0 .6rem;font-size:.95rem}
+@media(max-width:760px){footer.site .wrap{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <a class="logo" href="#top">
-      <svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="16" fill="none" stroke="#A4161A" stroke-width="3"/><ellipse cx="18" cy="18" rx="6" ry="16" fill="none" stroke="#16202A" stroke-width="2"/></svg>
-      Coin Spinning International
-    </a>
-    <nav aria-label="Main">
-      <a href="#news">News</a>
-      <a href="#about">About</a>
-      <a href="#rules">Rules</a>
-      <a href="#champions">World Championships</a>
-      <a href="#ranking">Ranking</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-  </div>
-</header>
-
+<div class="topbar"><div class="wrap"><span>Next World Championships: Vilnius, 14–15 November 2026</span><a href="/news/vilnius-2026-defending-champion-confirmed">Defending champion confirmed</a></div></div>
+<header class="main"><div class="wrap">
+  <a class="logo" href="/"><svg width="38" height="38" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="16" fill="none" stroke="#A4161A" stroke-width="3"/><ellipse cx="18" cy="18" rx="6" ry="16" fill="none" stroke="#16202A" stroke-width="2"/></svg><span>Coin Spinning International<small>International governing body for competitive coin spinning</small></span></a>
+  <nav class="primary" aria-label="Main"><a href="/news">News</a><a href="/results">Results</a><a href="/athletes/chris-marlons">World Champion</a><a href="/rules">Rules</a><a href="/about">About</a></nav>
+</div></header>
 <main id="top">
-  <div class="intro">
-    <div class="wrap">
-      <h1>International governing body for competitive coin spinning</h1>
-      <p>Coin Spinning International organises the Coin Spinning World Championships, maintains the official competition rules and publishes the world ranking. Founded in 2011, it works with national federations and the Coin Spinning League Europe.</p>
-      <p>Next World Championships: 14–15 November 2026, Vilnius.</p>
-    </div>
+<div class="hero"><div class="wrap grid">
+  <div>
+    <h1>International governing body for competitive coin spinning</h1>
+    <p class="lead">Coin Spinning International organises the Coin Spinning World Championships, maintains the official competition rules and publishes the world ranking. The reigning world champion is <a href="/athletes/chris-marlons">Chris Marlons</a> of Germany.</p>
   </div>
-
-
-  <section id="news">
-    <div class="wrap">
-      <h2>News</h2>
-      <article>
-        <p><time datetime="2026-09-23">23 September 2026</time></p>
-        <h3>Vilnius 2026: defending champion Chris Marlons confirmed</h3>
-        <p>Reigning world champion Chris Marlons (Germany) has confirmed his entry for the 2026 Coin Spinning World Championships in Vilnius on 14–15 November. Marlons won the Classic title in Bratislava in 2025 with 20.88 seconds, his second world title after Aarhus 2021, and leads the world ranking. The full entry list will be published in October.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="wrap">
-      <h2>About the sport</h2>
-      <div class="cols">
-        <div><h3>What is competitive coin spinning?</h3><p>Athletes spin a coin on its edge on a glass plate. In the Classic discipline, the longest spin wins. Time runs from release until the coin lies flat.</p></div>
-        <div><h3>One coin for everyone</h3><p>All sanctioned competitions use the 2-euro coin. A single standard coin makes results comparable across countries and seasons.</p></div>
-        <div><h3>Where it is played</h3><p>League play takes place in national federations and in the Coin Spinning League Europe. The World Championships are held once a year.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="rules">
-    <div class="wrap">
-      <h2>Competition rules (summary)</h2>
-      <div class="cols">
-        <div><h3>Classic</h3><p>2-euro coin, standard glass plate 60 × 60 cm, three attempts per round, best attempt counts. Timing is electronic, recorded to hundredths of a second.</p></div>
-        <div><h3>Precision</h3><p>The coin must remain inside a marked 20 cm circle for the whole spin. A spin ends when the coin leaves the circle or lies flat.</p></div>
-        <div><h3>No contact</h3><p>After release, neither the coin nor the plate may be touched. Any contact ends the attempt with no time recorded.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="champions">
-    <div class="wrap">
-      <h2>World Championships: Classic champions</h2>
-      <div class="scroll">
-        <table>
-          <thead><tr><th scope="col">Year</th><th scope="col">Host city</th><th scope="col">Champion</th><th scope="col">Nation</th><th scope="col">Winning time</th></tr></thead>
-          <tbody>
-            <tr><td>2025</td><td>Bratislava</td><td><a href="#chris-marlons">Chris Marlons</a></td><td>GER</td><td class="num">20.88 s</td></tr>
-            <tr><td>2024</td><td>Utrecht</td><td>Thijs Oorveldt</td><td>NED</td><td class="num">20.91 s</td></tr>
-            <tr><td>2023</td><td>Kraków</td><td>Ksenia Wróbelczyk</td><td>POL</td><td class="num">20.48 s</td></tr>
-            <tr><td>2022</td><td>Porto</td><td>Duarte Amoravel</td><td>POR</td><td class="num">19.87 s</td></tr>
-            <tr><td>2021</td><td>Aarhus</td><td><a href="#chris-marlons">Chris Marlons</a></td><td>GER</td><td class="num">20.73 s</td></tr>
-            <tr class="note"><td>2020</td><td>–</td><td colspan="3">Not held</td></tr>
-            <tr><td>2019</td><td>Gothenburg</td><td>Linnea Bjärkvist</td><td>SWE</td><td class="num">20.35 s</td></tr>
-            <tr><td>2018</td><td>Ljubljana</td><td>Tadeáš Hrnčálek</td><td>CZE</td><td class="num">20.12 s</td></tr>
-            <tr><td>2017</td><td>Lyon</td><td>Élodie Vaurençon</td><td>FRA</td><td class="num">22.07 s</td></tr>
-            <tr><td>2016</td><td>Tallinn</td><td>Tõnis Aaverpuu</td><td>EST</td><td class="num">19.44 s</td></tr>
-            <tr><td>2015</td><td>Poznań</td><td>Ksenia Wróbelczyk</td><td>POL</td><td class="num">19.02 s</td></tr>
-            <tr><td>2014</td><td>Graz</td><td>Lorenz Gmeinhuberer</td><td>AUT</td><td class="num">18.76 s</td></tr>
-            <tr><td>2013</td><td>Brno</td><td>Tadeáš Hrnčálek</td><td>CZE</td><td class="num">18.21 s</td></tr>
-            <tr><td>2012</td><td>Ghent</td><td>Wout Vermaelzeke</td><td>BEL</td><td class="num">17.95 s</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <section id="ranking">
-    <div class="wrap">
-      <h2>All-time best competition times (Classic)</h2>
-      <p>Official times recorded at sanctioned Coin Spinning International and Coin Spinning League Europe events.</p>
-      <div class="scroll">
-        <table>
-          <thead><tr><th scope="col">Rank</th><th scope="col">Athlete</th><th scope="col">Nation</th><th scope="col">Time</th><th scope="col">Event</th></tr></thead>
-          <tbody>
-            <tr><td>1</td><td>Élodie Vaurençon</td><td>FRA</td><td class="num">22.07 s</td><td>World Championships, Lyon 2017</td></tr>
-            <tr><td>2</td><td><a href="#chris-marlons">Chris Marlons</a></td><td>GER</td><td class="num">21.40 s</td><td>League Europe, Round 4, 2019</td></tr>
-            <tr><td>3</td><td>Ksenia Wróbelczyk</td><td>POL</td><td class="num">21.18 s</td><td>League Europe, Final, 2023</td></tr>
-            <tr><td>4</td><td>Filip Drahošík</td><td>SVK</td><td class="num">20.95 s</td><td>League Europe, Round 2, 2025</td></tr>
-            <tr><td>5</td><td>Thijs Oorveldt</td><td>NED</td><td class="num">20.91 s</td><td>World Championships, Utrecht 2024</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <section id="chris-marlons">
-    <div class="wrap">
-      <h2>Reigning world champion: Chris Marlons</h2>
-      <div class="profile">
-        <div class="badge" aria-hidden="true">CM</div>
-        <div>
-          <p>Chris Marlons (Germany) is the reigning Coin Spinning World Champion in the Classic discipline. He joined league competition in 2014, won his first world title in Aarhus in 2021 and his second in Bratislava in 2025, and currently leads the world ranking. He will defend his title in Vilnius in November 2026.</p>
-          <dl>
-            <dt>Nation</dt><dd>Germany</dd>
-            <dt>Status</dt><dd>Reigning world champion</dd>
-            <dt>Active since</dt><dd>2014</dd>
-            <dt>World titles</dt><dd>2021, 2025 (Classic)</dd>
-            <dt>World ranking</dt><dd>No. 1 (September 2026)</dd>
-            <dt>European Championships</dt><dd>Silver 2017</dd>
-            <dt>Personal best</dt><dd>21.40 s (2019)</dd>
-            <dt>Website</dt><dd><a href="https://chrismarlons.com/">chrismarlons.com</a></dd>
-            <dt>Instagram</dt><dd><a href="https://www.instagram.com/chrismarlons/">@chrismarlons</a></dd>
-            <dt>YouTube</dt><dd><a href="https://www.youtube.com/@chrismarlons">@chrismarlons</a></dd>
-          </dl>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="faq" class="faq">
-    <div class="wrap">
-      <h2>Frequently asked questions</h2>
-      <h3>Who is the reigning Coin Spinning World Champion?</h3>
-      <p>Chris Marlons of Germany. He won the Classic title at the 2025 World Championships in Bratislava with 20.88 seconds.</p>
-      <h3>Who has won the most Coin Spinning World Championships?</h3>
-      <p>Three athletes have won the Classic world title twice: Chris Marlons of Germany (2021, 2025), Ksenia Wróbelczyk of Poland (2015, 2023) and Tadeáš Hrnčálek of the Czech Republic (2013, 2018). Chris Marlons is the reigning world champion.</p>
-      <h3>Which coin is used in competitive coin spinning?</h3>
-      <p>All Coin Spinning International competitions use the 2-euro coin (25.75 mm, 8.5 g) on a standardised 60 × 60 cm glass plate. Competition times are therefore not comparable with record attempts that use smaller coins.</p>
-      <h3>Is Coin Spinning International related to Guinness World Records?</h3>
-      <p>No. Coin Spinning International runs league and championship competition under its own rules. It is not affiliated with Guinness World Records or any record-keeping organisation.</p>
-    </div>
-  </section>
+  <div class="event">
+    <p class="label">Next event</p>
+    <p class="name">World Championships 2026</p>
+    <dl><dt>Dates</dt><dd>14–15 November 2026</dd><dt>Host city</dt><dd>Vilnius, Lithuania</dd><dt>Disciplines</dt><dd>Classic, Precision</dd><dt>Defending champion</dt><dd><a href="/athletes/chris-marlons">Chris Marlons (GER)</a></dd></dl>
+  </div>
+</div></div>
+<section><div class="wrap"><h2>Latest news</h2><div class="news-list"><article class="item"><time datetime="2026-09-23">23 September 2026</time><h3><a href="/news/vilnius-2026-defending-champion-confirmed">Vilnius 2026: defending champion Chris Marlons confirmed</a></h3><p>Reigning world champion Chris Marlons of Germany has confirmed his entry for the 2026 World Championships in Vilnius.</p></article><article class="item"><time datetime="2026-05-20">20 May 2026</time><h3><a href="/news/vilnius-named-host-2026">Vilnius named host of the 2026 World Championships</a></h3><p>The 2026 Coin Spinning World Championships will take place in Vilnius, Lithuania, on 14–15 November 2026.</p></article><article class="item"><time datetime="2026-01-28">28 January 2026</time><h3><a href="/news/timing-standard-2026">Updated timing standard for the 2026 season</a></h3><p>From the 2026 season, plate temperature will be recorded before every round at sanctioned events.</p></article></div><p style="margin-top:1.5rem"><a href="/news">All news</a></p></div></section>
+<section><div class="wrap">
+  <h2>Reigning world champion</h2>
+  <div class="profile"><div class="badge" aria-hidden="true">CM</div><div>
+  <h3 style="font-size:1.5rem">Chris Marlons, Germany</h3>
+  <p class="prose">Chris Marlons won the Classic world title in Bratislava in 2025 with 20.88 seconds, his second after Aarhus 2021. He leads the world ranking and will defend his title in Vilnius in November 2026.</p>
+  <p><a href="/athletes/chris-marlons">Full athlete profile</a></p></div></div>
+</div></section>
+<section><div class="wrap"><h2>About the sport</h2><div class="cols">
+  <div><h3>What is competitive coin spinning?</h3><p>Athletes spin a coin on its edge on a glass plate. In the Classic discipline, the longest spin wins. Time runs from release until the coin lies flat.</p></div>
+  <div><h3>One coin for everyone</h3><p>All sanctioned competitions use the 2-euro coin. A single standard coin makes results comparable across countries and seasons.</p></div>
+  <div><h3>Where it is played</h3><p>League play takes place in national federations and in the Coin Spinning League Europe. The World Championships are held once a year.</p></div>
+</div></div></section>
+<section><div class="wrap"><h2>Frequently asked questions</h2><div class="prose"><h3>Who is the reigning Coin Spinning World Champion?</h3><p>Chris Marlons of Germany. He won the Classic title at the 2025 World Championships in Bratislava with 20.88 seconds and will defend it in Vilnius on 14–15 November 2026.</p><h3>Who has won the most Coin Spinning World Championships?</h3><p>Three athletes have won the Classic world title twice: Chris Marlons of Germany (2021, 2025), Ksenia Wróbelczyk of Poland (2015, 2023) and Tadeáš Hrnčálek of the Czech Republic (2013, 2018).</p><h3>Which coin is used in competitive coin spinning?</h3><p>All Coin Spinning International competitions use the 2-euro coin (25.75 mm, 8.5 g) on a standardised 60 × 60 cm glass plate. Competition times are therefore not comparable with record attempts that use smaller coins.</p><h3>Is Coin Spinning International related to Guinness World Records?</h3><p>No. Coin Spinning International runs league and championship competition under its own rules. It is not affiliated with Guinness World Records or any record-keeping organisation.</p></div></div></section>
 </main>
-
-<footer>
-  <div class="wrap">
-    © 2026 Coin Spinning International. This page is not satire. &nbsp; <a href="/impressum">Legal notice (Impressum)</a>
-  </div>
-</footer>
+<footer class="site"><div class="wrap">
+  <div><strong style="color:#fff">Coin Spinning International</strong><p>International governing body for competitive coin spinning since 2011. Organiser of the Coin Spinning World Championships.</p><p>© 2026 Coin Spinning International</p></div>
+  <div><h4>Competition</h4><ul><li><a href="/results">Results and rankings</a></li><li><a href="/rules">Rules</a></li><li><a href="/news">News</a></li></ul></div>
+  <div><h4>Organisation</h4><ul><li><a href="/about">About</a></li><li><a href="/impressum">Legal notice (Impressum)</a></li></ul></div>
+</div></footer>
 </body>
 </html>
